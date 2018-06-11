@@ -1,6 +1,6 @@
 set t_Co=256
 syntax on
-colorscheme desert
+colorscheme peachpuff 
 set number
 set mouse=n
 set shiftwidth=4
@@ -121,6 +121,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 map <C-n> :NERDTreeToggle<CR>  " open and close file tree
 nmap <leader>n :NERDTreeFind<CR>  " open current buffer in file tree
 " ==================== airline
+let g:airline_theme='solarized'
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
 " ==================== Vundle Plugin Controller
