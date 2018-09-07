@@ -122,6 +122,7 @@ map <C-n> :NERDTreeToggle<CR>  " open and close file tree
 nmap <leader>n :NERDTreeFind<CR>  " open current buffer in file tree
 " ==================== airline
 let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark' " for dark background
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
 " ==================== Vundle Plugin Controller
